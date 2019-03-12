@@ -1,0 +1,22 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" media="screen" href="dvtable.css"/>
+<script type="text/javascript" src="orbit.js"></script>
+<title>Mining Asteroids</title>
+</head>
+<body style="margin:0px;" onload = "onLoad()">
+<h1>~ Orbits of Earth and Asteroid on Same Plane ~</h1>
+<center>
+<button onclick="zoomInF()"><b>Zoom In</b></button>
+<button onclick="zoomOutF()"><b>Zoom Out</b></button>
+</center>
+<canvas class="canvas" width='1347' height='700' id='frontview'></canvas><br><br>
+<h1>~ Inclination of Asteroid in Comparison to Inclination of Earth ~</h1>
+<center>
+<button onclick="zoomInS()"><b>Zoom In</b></button>
+<button onclick="zoomOutS()"><b>Zoom Out</b></button>
+<p> Inclination = <span id="i-text">0</span> radians </p>
+</center>
+<canvas class="canvas" width='1347' height='1200' id='sideview'></canvas>
+</body>
+</html>
